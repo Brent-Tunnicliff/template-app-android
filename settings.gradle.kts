@@ -11,15 +11,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
+        maven {
+            // Allows importing libs from GitHub.
+            url = uri("https://jitpack.io")
+        }
     }
 }
 
 rootProject.name = "REPLACE_ME"
 include(":app")
-
-// Example of referencing git repo as dependency.
-// sourceControl {
-//     gitRepository(uri("https://github.com/gradle/native-samples-cpp-library.git")) {
-//         producesModule("org.gradle.cpp-samples:utilities")
-//     }
-// }
