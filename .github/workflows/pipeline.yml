@@ -18,12 +18,12 @@ jobs:
       - name: Upload APK Debug
         uses: actions/upload-artifact@v3
         with:
-          name: APK(s) debug generated
+          name: Debug apk
           path: app/build/outputs/apk/debug/
       - name: Build apk release (unsigned)
         run: ./gradlew assembleRelease
       - name: Upload APK Release
         uses: actions/upload-artifact@v3
         with:
-          name: APK(s) release generated
+          name: Release APK (unsigned)
           path: app/build/outputs/apk/release/
