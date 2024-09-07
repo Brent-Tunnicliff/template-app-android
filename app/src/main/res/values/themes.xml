@@ -1,3 +1,5 @@
+<!-- Copyright © 2024 Brent Tunnicliff <brent@tunnicliff.dev> -->
+
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.REPLACE_ME" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
